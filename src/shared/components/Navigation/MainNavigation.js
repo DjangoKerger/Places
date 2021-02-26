@@ -10,7 +10,7 @@ const MainNavigation = props => {
     return (
         <React.Fragment>
         <SideDrawer>
-            <nav></nav>
+            <nav className="main-navigation__drawer-nav"></nav>
         </SideDrawer>
         <MainHeader>
         <button className="main-navigation__menu-btn">
